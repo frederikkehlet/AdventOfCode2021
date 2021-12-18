@@ -1,0 +1,16 @@
+D:\PersonalProjects\AdventOfCode2021\Day02\bin\Debug\net6.0\Day02.exe
+D:\PersonalProjects\AdventOfCode2021\Day02\bin\Debug\net6.0\Day02.deps.json
+D:\PersonalProjects\AdventOfCode2021\Day02\bin\Debug\net6.0\Day02.runtimeconfig.json
+D:\PersonalProjects\AdventOfCode2021\Day02\bin\Debug\net6.0\Day02.dll
+D:\PersonalProjects\AdventOfCode2021\Day02\bin\Debug\net6.0\ref\Day02.dll
+D:\PersonalProjects\AdventOfCode2021\Day02\bin\Debug\net6.0\Day02.pdb
+D:\PersonalProjects\AdventOfCode2021\Day02\obj\Debug\net6.0\Day02.GlobalUsings.g.cs
+D:\PersonalProjects\AdventOfCode2021\Day02\obj\Debug\net6.0\Day02.csproj.AssemblyReference.cache
+D:\PersonalProjects\AdventOfCode2021\Day02\obj\Debug\net6.0\Day02.GeneratedMSBuildEditorConfig.editorconfig
+D:\PersonalProjects\AdventOfCode2021\Day02\obj\Debug\net6.0\Day02.AssemblyInfoInputs.cache
+D:\PersonalProjects\AdventOfCode2021\Day02\obj\Debug\net6.0\Day02.AssemblyInfo.cs
+D:\PersonalProjects\AdventOfCode2021\Day02\obj\Debug\net6.0\Day02.csproj.CoreCompileInputs.cache
+D:\PersonalProjects\AdventOfCode2021\Day02\obj\Debug\net6.0\Day02.dll
+D:\PersonalProjects\AdventOfCode2021\Day02\obj\Debug\net6.0\ref\Day02.dll
+D:\PersonalProjects\AdventOfCode2021\Day02\obj\Debug\net6.0\Day02.pdb
+D:\PersonalProjects\AdventOfCode2021\Day02\obj\Debug\net6.0\Day02.genruntimeconfig.cache
