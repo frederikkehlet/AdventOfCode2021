@@ -1,4 +1,4 @@
-﻿string inputFilePath = @"D:\PersonalProjects\AdventOfCode2021\Day02\input.txt";
+﻿string inputFilePath = @".\input.txt";
 string[] commands = System.IO.File.ReadAllLines(inputFilePath);
 
 // part 1
