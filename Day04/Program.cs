@@ -31,7 +31,8 @@ for (int i = 0; i < boardNumbers.Length - 4; i += 6)
     boards.Add(board);
 }
 
-// plays bingo
+// part 1
+/*
 foreach (string drawnNumber in drawnNumbers) 
 {
     foreach(string[,] board in boards) 
@@ -46,6 +47,34 @@ foreach (string drawnNumber in drawnNumbers)
         }
     }
 }
+*/
+
+// part 2
+
+Dictionary<string[,], int> winningBoardsAndIterations = new();
+
+for (int i = 0; i < boards.Count; i++) 
+{
+    for (int j = 0; j < drawnNumbers.Count; j++) 
+    {   
+        MarkNumberOnBoard(boards[i], drawnNumbers[j]);
+
+        if (HasCompleteRowOrColumn(boards[i])) 
+        {
+            winningBoardsAndIterations.Add(boards[i],j);
+            break;
+        }
+    }
+}
+
+var orderedList = from entry in winningBoardsAndIterations orderby entry.Value ascending select entry;
+string[,] lastBoard = orderedList.Last().Key;
+string finalNumber = drawnNumbers[orderedList.Last().Value];
+
+PrintBoard(lastBoard);
+Console.WriteLine(finalNumber);
+
+Console.WriteLine($"Part 2 answer: {CalculateScore(lastBoard, finalNumber)}");
 
 // method for printing out single board
 void PrintBoard(string[,] board)
@@ -97,6 +126,7 @@ bool HasCompleteRowOrColumn(string[,] board)
     return false; // if we exhaust all rows and columns, the board has not yet won
 }
 
+
 int CalculateScore(string[,] board, string number)
 {
     int score = 0;
@@ -107,4 +137,3 @@ int CalculateScore(string[,] board, string number)
         
     return score * Convert.ToInt32(number);
 }
-
